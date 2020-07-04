@@ -1,0 +1,163 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gainsboro;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background: url(../Sajt_Tolkin/Slike/cover.jpg);
+    background-size: cover;      
+}
+
+header {
+    height: 122px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#logo {
+    text-align: center;
+    margin-top:-4px;    
+}
+
+#krug {
+    border-radius:50%;
+}
+    
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    margin-top: 6px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px #000000;
+}
+
+li {
+    display: inline-block;
+    padding: 2px 11px;
+    border-style: ridge;
+    border-radius: 10%;
+    border-color: lightcyan;
+    background-color:rgba(85, 127, 167, 0.2);  
+}
+
+h1 {
+    text-align:center;
+    text-shadow: 9px 9px 15px #56b9e0;
+    font-size:230%;
+    -webkit-text-stroke: 1px rgb(4, 58, 80);
+}
+
+#naslov1 {
+       font-size:400%;
+       margin-top:120px;  
+}
+
+h2 {
+    font-size:25px;
+    text-align: center;
+    text-shadow: 5px 5px 10px #000000;  
+    margin-top:-150px;
+    -webkit-text-stroke: 1px rgb(129, 172, 189);
+}
+
+#slika {
+    float: left;
+    clear:right;
+    margin: 10px;
+    height:200px;
+    width: 350px;
+}
+
+p {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 6px;
+    line-height: 0.5cm;
+    text-shadow: 2px 2px 10px rgb(32, 25, 25);
+    margin-right:10px;  
+}
+
+img:hover {
+    -webkit-box-shadow: 2px 3px 97px 30px rgba(250,245,250,1);
+    -moz-box-shadow: 2px 3px 97px 30px rgba(250,245,250,1);
+     box-shadow: 2px 3px 97px 30px rgba(250,245,250,1);
+} 
+
+section {
+    float: left;
+}
+
+aside {
+    float: right;
+    margin-right:25px;
+}
+
+.unos {
+      color: rgb(71, 60, 60);
+      border-color: rgba(149, 172, 194, 0.712);
+      border-radius:5px;
+}
+
+form  {
+      margin-left:25px;
+}
+
+th {
+    text-align: center;
+}
+
+
+#tabela {
+    float:right;
+    margin-right:50px;
+}
+
+.galerija {
+
+ display:inline-block;
+ margin:30px;
+ }
+
+img {
+    width: 8%;
+}
+
+footer {
+   position: fixed;
+   bottom:0;
+   width:100%;
+   height:60px; 
+   text-align: center;  
+}
+
+#autori {
+    text-align: center;
+    color: white;
+    font-size: 15px;   
+    margin-top:40px;
+}
+
+#sajt {
+    margin-top:9px;
+    font-size:16px;
+}
+
+.boja {
+    background-image: linear-gradient(rgb(97, 144, 182), rgb(230, 237, 243));
+    color:rgb(39, 24, 24);
+}
+
+.fa {
+    padding: 3px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin:10px;
+  }
+
+
