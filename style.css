@@ -2,6 +2,12 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: gainsboro;
     box-sizing: border-box;
+  
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 body {
@@ -102,8 +108,33 @@ aside {
       border-radius:5px;
 }
 
+#kontakt section, #kontakt article, #kontakt aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#kontakt article {
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+}
+
 form  {
       margin-left:25px;
+      width: 400px;
+}
+
+form > * {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    height: 30px;
+}
+
+form input[type="submit"], form input[type="reset"] {
+    width: 30%;
 }
 
 th {
@@ -122,7 +153,7 @@ th {
  margin:30px;
  }
 
-img {
+.galerija img{
     width: 8%;
 }
 
@@ -161,3 +192,77 @@ footer {
   }
 
 
+main {
+    padding: 0px 200px;
+}
+
+@media only screen and (max-width: 1700px) {
+    body {
+        /* background-size: auto 100vh;
+        background-repeat: no-repeat;
+        background-position: center center; */
+           background-repeat:no-repeat;
+            background-attachment:fixed;
+            background-position:center;
+    }
+
+    #kontakt article {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1615px) {
+    #kontakt {
+        padding-bottom: 100px;
+    }
+    #kontakt section, #kontakt article, #kontakt aside {
+        display: block;
+        margin: auto;
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #kontakt form {
+        margin: auto;
+    }
+     #kontakt article {
+         width: 100%;
+     }
+}
+
+@media only screen and (max-width: 1560px) {
+    .galerija img {
+        width: 16.3%;
+    }
+}
+
+@media only screen and (max-width: 1367px) {
+    .galerija img {
+        width: 16.1%;
+    }
+}
+
+@media only screen and (max-width: 1047px) {
+    .galerija img {
+        width: 16%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    main {
+        padding: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+    h2 {
+        margin-top: -230px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+     main {
+        padding: 20px;
+    }
+}
